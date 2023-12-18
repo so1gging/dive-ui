@@ -20,5 +20,6 @@ module.exports = {
       allowConstantExport: true
     }],
     '@typescript-eslint/no-non-null-assertion': 'off'
-  }
+  },
+  ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
 };
