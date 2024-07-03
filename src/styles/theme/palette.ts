@@ -47,10 +47,4 @@ const palette = {
   },
 }
 
-const theme = {
-  color: {
-    ...palette,
-  },
-}
-
-export default theme
+export default palette
